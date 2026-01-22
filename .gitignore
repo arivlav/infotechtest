@@ -1,0 +1,19 @@
+/.env
+# If you use Composer to manage dependencies
+/vendor/*
+
+# Development/environment specific files
+.env
+.DS_Store
+Thumbs.db
+nbproject/
+.idea/
+
+# Ignore empty directories (Git doesn't track empty dirs, so a .gitkeep file might be present to force tracking)
+# If you have .gitkeep files in runtime and assets directories, do NOT ignore the directory itself,
+# but everything inside it, except .gitkeep
+!/assets/.gitkeep
+/assets/*
+!/protected/runtime/.gitkeep
+/protected/runtime/*
+/uploads/*
